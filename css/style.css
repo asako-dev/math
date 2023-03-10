@@ -185,9 +185,6 @@ body {
   margin: 4rem auto;
   transition: 0.3s;
 }
-#button:hover {
-  opacity: 0.8;
-}
 
 #random {
   color: #fff;
