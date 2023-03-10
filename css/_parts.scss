@@ -18,15 +18,16 @@ body {
 
 .math {
     text-align: center;
-    margin-top: 8rem;
-
-    h1 {
-        color: #fff;
-        font-size: 2rem;
-    }
+    margin-top: 5rem;
 }
 
-#button {
+h2 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+#button,
+#button02 {
     background: #fff;
     border: none;
     padding: 1.5rem 0;
@@ -37,12 +38,10 @@ body {
     margin: 4rem auto;
     transition: 0.3s;
 
-    // &:hover {
-    //     opacity: 0.8;
-    // }
 }
 
-#random {
+#random,
+#random02 {
     color: #fff;
     font-size: 10rem;
 }

@@ -167,14 +167,16 @@ body {
 
 .math {
   text-align: center;
-  margin-top: 8rem;
+  margin-top: 5rem;
 }
-.math h1 {
+
+h2 {
   color: #fff;
   font-size: 2rem;
 }
 
-#button {
+#button,
+#button02 {
   background: #fff;
   border: none;
   padding: 1.5rem 0;
@@ -186,7 +188,8 @@ body {
   transition: 0.3s;
 }
 
-#random {
+#random,
+#random02 {
   color: #fff;
   font-size: 10rem;
 }
