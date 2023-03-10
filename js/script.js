@@ -18,6 +18,9 @@ btn02.addEventListener('click', () => {
     if (randomNumber02 < 10) {
         randomNumber02 = '00' + randomNumber02;
     }
+    else if (randomNumber02 < 100) {
+            randomNumber02 = '0' + randomNumber02;
+    }
     random02.textContent = randomNumber02;
     
 });
