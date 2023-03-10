@@ -16,7 +16,7 @@ const random02 = document.querySelector('#random02');
 btn02.addEventListener('click', () => {
     const randomNumber02 = Math.floor(Math.random() * 1000);
     if (randomNumber02 < 10) {
-        randomNumber02 = '0' + randomNumber02;
+        randomNumber02 = '00' + randomNumber02;
     }
     random02.textContent = randomNumber02;
     
