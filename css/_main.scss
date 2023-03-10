@@ -1,0 +1,8 @@
+@use "base"as base;
+
+// ブレイクポイント
+@mixin pc {
+    @media (min-width: 960px) {
+        @content;
+    }
+}
